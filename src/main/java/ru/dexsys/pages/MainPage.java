@@ -6,6 +6,7 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
 public class MainPage {
+
     private ElementsCollection products = Selenide.$$x("//div[@class='product-container']")
             .filter(Condition.visible);
 

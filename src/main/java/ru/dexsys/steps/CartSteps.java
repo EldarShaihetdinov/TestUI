@@ -20,7 +20,6 @@ public class CartSteps {
         mainPage.getNProduct(n).click();
         Selenide.$x("//button//span[text()='Add to cart']//parent::button").click();
         Selenide.$x("//*[@title='Close window']").click();
-
     }
 
     @And("проверить, что в корзине {int} товаров")

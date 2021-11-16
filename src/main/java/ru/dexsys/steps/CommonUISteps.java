@@ -35,6 +35,6 @@ public class CommonUISteps {
 
     @And("открыта страница корзины")
     public void cartPagePresent() {
-        cartPage.cartTitle.should(Condition.visible);
+        cartPage.getCartTitle().should(Condition.visible);
     }
 }
